@@ -1,4 +1,4 @@
-name: Deploy Alterações via FTP (DEV)
+name: Deploy Alterações via FTP (DEV) 
 
 on:
   push:
