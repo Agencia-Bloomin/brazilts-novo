@@ -32,7 +32,7 @@ if (preg_match_all("/http/i", implode($_POST), $out) > 0) {
 }
 if (!empty($spam)) {
     echo ("<script>alert('Desculpe, mas esta mensagem parece ser SPAM! \\nFavor não inserir links!');</script>");
-    echo ("<script>window.location = 'contato'</script>");
+    echo ("<script>window.location = 'fale-conosco/'</script>");
     die();
 }
 
@@ -42,7 +42,7 @@ if (isset($_POST['g-recaptcha-response'])) {
 }
 if (!$captcha_data) {
     echo ("<script>alert('Por favor, confirme o reCAPTCHA.');</script>");
-    echo ("<script>window.location = 'contato'</script>");    
+    echo ("<script>window.location = 'fale-conosco/'</script>");    
     exit;
 }
 $resposta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".CONF_RECAPTCHA_SECRET."&response=".$captcha_data."&remoteip=".$_SERVER['REMOTE_ADDR']);
@@ -91,7 +91,7 @@ $mail->AddBCC('formularios@bloomin.com.br', CONF_SITE_NAME); // Cópia Oculta
 //     }
 // } else {
 //     echo ("<script>alert('Extensão de arquivo não permitida! Envie uma arquivo válido');</script>");
-//     echo ("<script>window.location = 'contato'</script>");
+//     echo ("<script>window.location = 'fale-conosco/'</script>");
 // }
 
 

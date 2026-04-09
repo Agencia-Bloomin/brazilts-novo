@@ -1,0 +1,412 @@
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/apostille-de-la-haye.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\apostille-de-la-haye.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/HORIZOLTAL-COLORIDO.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\HORIZOLTAL-COLORIDO.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_locacao_equipamentos_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_locacao_equipamentos_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_traducao_cientifica_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_traducao_cientifica_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_traducao_juramentada_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_traducao_juramentada_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_traducao_legendagem_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_traducao_legendagem_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_traducao_libras_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_traducao_libras_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/ic_traducao_simultanea_branco.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\ic_traducao_simultanea_branco.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/logo-1.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\logo-1.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/MORE_ICON.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\MORE_ICON.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/09/transcript.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\transcript.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/10/medtronic-3.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\medtronic-3.svg
+Content Type: image/svg+xml
+
+Uri: https://brazilts.accioestudio.com.br/wp-content/uploads/2024/10/The_Walt_Disney_company_logo.svg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\The_Walt_Disney_company_logo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.brazilts.com.br/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/comments/feed/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://www.brazilts.com.br/en/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\en\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/es/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\es\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/feed/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://www.brazilts.com.br/nossa-historia/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\nossa-historia\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/quem-somos/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\quem-somos\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/servicos/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\servicos\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/servicos/traducao-cientifica/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\servicos\traducao-cientifica\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/servicos/traducao-em-libras/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\servicos\traducao-em-libras\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/servicos/traducao-juramentada/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\servicos\traducao-juramentada\index.htm
+Content Type: text/html
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/widget-accordion.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\widget-accordion.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\widget-counter.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\widget-heading.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\widget-icon-list.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\css\widget-image.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.35.7
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\lib\animations\styles\slideInUp.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\elementor\assets\lib\jquery-numerator\jquery-numerator.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/css/modules/sticky.min.css?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\css\modules\sticky.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/css/widget-animated-headline.min.css?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\css\widget-animated-headline.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/css/widget-nav-menu.min.css?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\css\widget-nav-menu.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\js\elements-handlers.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\js\webpack-pro.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\lib\smartmenus\jquery.smartmenus.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/plugins/pro-elements/assets/lib/sticky/jquery.sticky.min.js?ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\plugins\pro-elements\assets\lib\sticky\jquery.sticky.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.3.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\themes\hello-elementor\assets\js\hello-frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.3.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\themes\hello-elementor\header-footer.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/themes/hello-elementor/style.min.css?ver=3.3.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\themes\hello-elementor\style.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/themes/hello-elementor/theme.min.css?ver=3.3.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\themes\hello-elementor\theme.min.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/fundo_1.jpg
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\fundo_1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/interpretacao-simultanea.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\interpretacao-simultanea.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/legendagem-de-videos.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\legendagem-de-videos.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/traducao-em-libras.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\traducao-em-libras.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/traducao-juramentada.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\traducao-juramentada.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/09/user-icon-300x300.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\09\user-icon-300x300.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/2560px-NSK_Logo.svg_-1024x408.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\2560px-NSK_Logo.svg_-1024x408.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/600px-Logo_Seguros_Unimed.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\600px-Logo_Seguros_Unimed.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/accor_logo-freelogovectors.net_-1024x640.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\accor_logo-freelogovectors.net_-1024x640.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Camargo-Correa-logo-1-1024x391.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Camargo-Correa-logo-1-1024x391.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/eurofarma-logo-1024x235.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\eurofarma-logo-1024x235.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Fabercastell_textlogo.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Fabercastell_textlogo.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/fragomen-logo-black.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\fragomen-logo-black.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/hyundai-logo-5-1024x595.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\hyundai-logo-5-1024x595.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/kia-82.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\kia-82.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Latam-logo_-1024x313.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Latam-logo_-1024x313.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/logo_corporate_60ddf00f728b0-1024x517.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\logo_corporate_60ddf00f728b0-1024x517.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Logo_Fiat_Chrysler_Automobiles-1024x391.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Logo_Fiat_Chrysler_Automobiles-1024x391.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/logo_ourofino_positivo.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\logo_ourofino_positivo.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Magneti_Marelli_logo.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Magneti_Marelli_logo.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Mosaic_Logo.svg_.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Mosaic_Logo.svg_.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/odebrecht-logo-big-1024x153.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\odebrecht-logo-big-1024x153.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Oi_logo_2022-1024x878.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Oi_logo_2022-1024x878.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Samsung_Logo.svg_-1024x340.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Samsung_Logo.svg_-1024x340.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/10/Zoetis_logo.svg_-1024x387.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\10\Zoetis_logo.svg_-1024x387.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/boleto-logo-1024x652.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\boleto-logo-1024x652.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/Logo—pix_powered_by_Banco_Central_Brazil_2020.svg-1024x364.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\Logo—pix_powered_by_Banco_Central_Brazil_2020.svg-1024x364.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/Logo—pix_powered_by_Banco_Central_Brazil_2020.svg.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\Logo—pix_powered_by_Banco_Central_Brazil_2020.svg.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/mastercard-icon-512x395-qoejqj7z.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\mastercard-icon-512x395-qoejqj7z.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/mercado-pago-logo-8-1024x259.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\mercado-pago-logo-8-1024x259.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/new-york-1024x680.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\new-york-1024x680.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/pagseguro-logo-1-1024x262.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\pagseguro-logo-1-1024x262.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/PayPal-logo-white-png-horizontal239-1024x1024.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\PayPal-logo-white-png-horizontal239-1024x1024.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/rj-1024x682.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\rj-1024x682.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/tatuape.webp
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\tatuape.webp
+Content Type: image/webp
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2024/12/visa-17-1024x333.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2024\12\visa-17-1024x333.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2025/01/1724347182_3f111d_logo_2-150x150.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2025\01\1724347182_3f111d_logo_2-150x150.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/2025/01/1724347182_3f111d_logo_2.png
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\2025\01\1724347182_3f111d_logo_2.png
+Content Type: image/png
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/css/post-1611.css?ver=1773495838
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\css\post-1611.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/css/post-1646.css?ver=1773495838
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\css\post-1646.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/css/post-24.css?ver=1773495855
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\css\post-24.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/css/post-7.css?ver=1773495838
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\css\post-7.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1742923351
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\google-fonts\css\montserrat.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1742923354
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\google-fonts\css\poppins.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1742923343
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\google-fonts\css\sora.css
+Content Type: text/css
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\google-fonts\fonts\montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2
+Content Type: font/woff2
+
+Uri: https://www.brazilts.com.br/wp-content/uploads/elementor/google-fonts/fonts/sora-xmqbuffyt72xzqupdg.woff2
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-content\uploads\elementor\google-fonts\fonts\sora-xmqbuffyt72xzqupdg.woff2
+Content Type: font/woff2
+
+Uri: https://www.brazilts.com.br/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-includes\js\dist\hooks.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-includes\js\dist\i18n.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.brazilts.com.br/wp-json/
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://www.brazilts.com.br/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.brazilts.com.br%2F
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://www.brazilts.com.br/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.brazilts.com.br%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://www.brazilts.com.br/wp-json/wp/v2/pages/24
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\wp-json\wp\v2\pages\24
+Content Type: application/json
+
+Uri: https://www.brazilts.com.br/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://www.google.com/recaptcha/api.js?render=explicit&ver=3.34.0
+File Name: C:\Downloaded Web Sites\www.brazilts.com.br\recaptcha\api.js
+Content Type: text/javascript
+
