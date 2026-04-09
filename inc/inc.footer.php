@@ -1,3 +1,7 @@
+<?php if (!empty($loadBraziltsElementor)) : ?>
+    <?php include __DIR__ . '/brazilts/partials/partial-elementor-footer.php'; ?>
+    <?php include __DIR__ . '/brazilts/partials/partial-elementor-popup.php'; ?>
+<?php else : ?>
 <footer class="mob-center">
     <!--? Footer Start-->
     <div class="footer-area footer-bg">
@@ -55,10 +59,11 @@
                             <div class="footer-cap">
                                 <ul>
                                     <li><a href="./">Home</a></li>
-                                    <li><a href="empresa">Empresa</a></li>
-                                    <li><a href="produtos">Produtos</a> </li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="contato">Contato</a></li>
+                                    <li><a href="nossa-historia/">Nossa História</a></li>
+                                    <li><a href="quem-somos/">Quem Somos</a></li>
+                                    <li><a href="servicos/">Serviços</a></li>
+                                    <li><a href="https://www.brazilts.com.br/blog/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                                    <li><a href="fale-conosco/">Contato</a></li>
                                     <li><a href="mapa-do-site">Mapa do Site</a></li>
                                 </ul>
                             </div>
@@ -131,3 +136,4 @@
     <?php include "lgpd.php" ?>
     <!-- Footer End-->
 </footer>
+<?php endif; ?>

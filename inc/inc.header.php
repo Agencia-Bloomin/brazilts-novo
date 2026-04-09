@@ -1,3 +1,6 @@
+<?php if (!empty($loadBraziltsElementor)) : ?>
+    <?php include __DIR__ . '/brazilts/partials/partial-elementor-header.php'; ?>
+<?php else : ?>
 <header>
     <div class="header-area header-transparent">
         <div class="top_menu">
@@ -74,40 +77,41 @@
                     <i class="fa-solid fa-xmark"></i>
                 </div>
                 <ul class="menu">
-                    <li class="menu-item has-children">
+                    <li class="menu-item">
                         <a class="nav-link" href="./">Home</a>
                     </li>
                     <li class="menu-item">
-                        <a class="nav-link" href="empresa">Empresa</a>
+                        <a class="nav-link" href="nossa-historia/">Nossa História</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-link" href="quem-somos/">Quem Somos</a>
                     </li>
                     <li class="menu-item has-children">
-                        <a class="nav-link" href="produtos" data-toggle="sub-menu">Produtos <i class="plus"></i></a>
+                        <a class="nav-link" href="servicos/" data-toggle="sub-menu">Serviços <i class="plus"></i></a>
                         <ul class="sub-menu">
-                            <li class="menu-item"><a href="produto-interna">Produto 1</a></li>
-                            <li class="menu-item"><a href="produto-interna2">Produto 2</a></li>
-                            <li class="menu-item"><a href="produto-interna3">Produto 3</a></li>
-                            <li class="menu-item"><a href="produto-interna4">Produto 4</a></li>
-                            <li class="menu-item has-children has-children-2">
-                                <a class="nav-link" href="javascript:void(0)" data-toggle="sub-menu"> Sub menu <i class="plus"></i></a>
-                                <ul class="sub-menu sub-menu-2 active">
-                                    <li class="menu-item"><a href="javascript:void(0)">Sub sub menu 1</a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)">Sub sub menu 2</a></li>
-                                </ul>
-                            </li>
+                            <li class="menu-item"><a href="servicos/traducao-juramentada/">Tradução Juramentada</a></li>
+                            <li class="menu-item"><a href="servicos/traducao-cientifica/">Tradução Técnica e Científica</a></li>
+                            <li class="menu-item"><a href="servicos/traducao-em-libras/">Tradução em Libras</a></li>
+                            <li class="menu-item"><a href="servicos/traducao-simultanea-consecutiva/">Interpretação simultânea / consecutiva</a></li>
+                            <li class="menu-item"><a href="servicos/legendagem-de-video/">Legendagem / transcrição de vídeos</a></li>
+                            <li class="menu-item"><a href="servicos/transcricao-de-audio-e-video/">Transcrição de áudio e vídeo</a></li>
+                            <li class="menu-item"><a href="servicos/locacao-de-equipamento/">Locação de Equipamentos</a></li>
+                            <li class="menu-item"><a href="servicos/apostille-de-la-haye/">Apostille de la Haye</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a class="nav-link" href="javascript:void(0)">Blog</a>
+                        <a class="nav-link" href="https://www.brazilts.com.br/blog/" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                     <li class="menu-item d-lg-none d-block">
-                        <a class="nav-link" href="contato">Contato</a>
+                        <a class="nav-link" href="fale-conosco/">Contato</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="contact-btn d-lg-block d-none">
-                <a href="contato" class="btn-main">Contato</a>
+                <a href="fale-conosco/" class="btn-main">Contato</a>
             </div>
         </div>
     </div>
 </header>
+<?php endif; ?>

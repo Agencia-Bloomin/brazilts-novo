@@ -37,6 +37,10 @@ Header always set Permissions-Policy "geolocation=(); midi=();notifications=();p
 
 RewriteEngine On
 
+# Mesma árvore de URLs do clone estático: wp-content e wp-includes na raiz apontam para assets
+RewriteRule ^wp-content/(.*)$ assets/brazilts/wp-content/$1 [L]
+RewriteRule ^wp-includes/(.*)$ assets/brazilts/wp-includes/$1 [L]
+
 RewriteRule ^informacoes\/([a-z,0-9,A-Z,_-]+)\/?$ pg-seo.php?url=$1 [NC,L]
 RewriteRule ^busca\/?$ produtos.php [NC]
 
@@ -45,5 +49,17 @@ RewriteRule ^categoria\/([a-z,0-9,_-]+)\/([0-9-]+)\/([0-9-]+)?$ produtos.php?id=
 RewriteRule ^subcategoria\/([a-z,0-9,_-]+)\/([0-9-]+)\/([0-9-]+)?$ produtos.php?id=$2&father_id=$3 [NC,L]
 RewriteRule ^produto\/([a-z,0-9,_-]+)\/([0-9-]+)\/([,|0-9-]+)?$ prod.php?id=$2&cat_id=$3 [NC,L]
 
+# BrazilTS: /orcamento/ no site oficial = mesma página que contato (formulário externo)
+RewriteRule ^orcamento/?$ contato.php [NC,L]
+
+# BrazilTS: URLs amigáveis servicos/* → ficheiro .php na raiz (sem pastas)
+RewriteRule ^servicos/traducao-juramentada/?$ servicos-traducao-juramentada.php [NC,L]
+RewriteRule ^servicos/traducao-cientifica/?$ servicos-traducao-cientifica.php [NC,L]
+RewriteRule ^servicos/traducao-em-libras/?$ servicos-traducao-em-libras.php [NC,L]
+RewriteRule ^servicos/traducao-simultanea-consecutiva/?$ servicos-traducao-simultanea-consecutiva.php [NC,L]
+RewriteRule ^servicos/transcricao-de-audio-e-video/?$ servicos-transcricao-de-audio-e-video.php [NC,L]
+RewriteRule ^servicos/legendagem-de-video/?$ servicos-legendagem-de-video.php [NC,L]
+RewriteRule ^servicos/locacao-de-equipamento/?$ servicos-locacao-de-equipamento.php [NC,L]
+RewriteRule ^servicos/apostille-de-la-haye/?$ servicos-apostille-de-la-haye.php [NC,L]
 
 RewriteRule ^([a-z,0-9,A-Z,_-]+)\/?$ $1.php [NC]

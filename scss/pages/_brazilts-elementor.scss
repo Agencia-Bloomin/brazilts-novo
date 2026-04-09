@@ -1,0 +1,23 @@
+// Conteúdo exportado do Elementor (BrazilTS). Convenção própria (prefixo brazilts-*)
+// em paralelo com classes elementor-* / e-con — necessárias para os .min.css do plugin.
+//
+// brazilts-pb     — raiz (header, footer, página)
+// brazilts-blk    — bloco/container (ex-elementor-element)
+// brazilts-wdg    — widget; brazilts-wdg__inner — .elementor-widget-container
+// brazilts-title  — título; brazilts-btn — link .elementor-button
+// brazilts-nav    — menus; __drawer overlay mobile; __toggle burger
+// brazilts-acc    — acordeão; brazilts-counter — contador
+// brazilts-rotating-headline — headline animado
+// brazilts-elem-layout — classe no <body> das páginas com layout Elementor
+
+.brazilts-main {
+  width: 100%;
+  overflow-x: clip;
+
+  .e-con,
+  .e-con-inner,
+  .brazilts-blk.elementor-element,
+  .elementor-element {
+    box-sizing: border-box;
+  }
+}

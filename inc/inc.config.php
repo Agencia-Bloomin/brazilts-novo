@@ -8,7 +8,7 @@
 ###### SITE ######
 ##################
 if (in_array($_SERVER['HTTP_HOST'], ['localhost', '127.0.0.1'])) {
-    define("CONF_TAG_BASE", "http://localhost/template-vanilla/");
+    define("CONF_TAG_BASE", "http://localhost/david/brazilts-novo/");
 } else {
     define("CONF_TAG_BASE", "https://bloominprojetos.com.br/projetos/template-vanilla/");
 }
@@ -53,6 +53,14 @@ define("CONF_MAIL_SENDER", "contato@papelindustrial.com.br");
 define("CONF_MAIL_TESTER", "dev@bloomin.com.br");
 
 define("DEBUG_EMAIL", true);
+
+/** Caminho dos assets exportados do WordPress/Elementor (URL relativa à raiz do site) */
+if (!defined('BRAZILTS_WPU')) {
+    define('BRAZILTS_WPU', 'assets/brazilts/wp-content');
+}
+if (!defined('BRAZILTS_WPI')) {
+    define('BRAZILTS_WPI', 'assets/brazilts/wp-includes');
+}
 
 #######################
 ###### RECAPTCHA ######
