@@ -23,7 +23,7 @@ jobs:
           server: ${{ secrets.FTP_HOST_BLOOMIN_PROJETOS }}
           username: ${{ secrets.FTP_USER_BLOOMIN_PROJETOS }}
           password: ${{ secrets.FTP_PASSWORD_BLOOMIN_PROJETOS }}
-          server-dir: /mudar-nome-cliente/
+          server-dir: /brazilts-novo/
 
         env:
           lftp-settings: "set net:max-retries 3; set net:timeout 30; set xfer:parallel 1;"
