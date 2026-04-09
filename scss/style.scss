@@ -1,0 +1,32 @@
+// Abstracts (Variáveis e Mixins)
+@use "abstracts/variables" as *;
+@use "abstracts/mixins" as *;
+
+// Vendors
+@use "vendors/swiper.scss";
+
+// Base (Estilos Globais)
+@use "base/global";
+@use "base/typography";
+
+// Layout (Estrutura do site)
+@use "layout/header";
+@use "layout/footer";
+
+// Components (Componentes Reutilizáveis)
+@use "components/blog";
+@use "components/brands";
+@use "components/breadcrumb";
+@use "components/buttons";
+@use "components/cards";
+@use "components/cta";
+@use "components/faq";
+@use "components/forms";
+@use "components/whats";
+
+// Pages (Estilos Específicos das Páginas)
+@use "pages/contact";
+@use "pages/home";
+@use "pages/internal";
+@use "pages/map-site";
+@use "pages/privacidade";

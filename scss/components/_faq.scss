@@ -1,0 +1,159 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.menu-sidebar {
+    @media (min-width: 992px) {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.accordion {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+
+    @media (min-width: 992px) {
+        width: 95%;
+    }
+
+    .accordion-item {
+        border: none;
+        
+        &:not(:last-child) {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        button[aria-expanded='true'] {
+            border-bottom: 1px solid $theme-color;
+
+            .icon {
+                color: $theme-color;
+            }
+        }
+    }
+
+    @media (max-width:991px) {
+        padding: 0 20px;
+    }
+
+    button {
+        position: relative;
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        color: #161616;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+        background: none;
+        outline: none;
+        transition: .4s ease;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            color: $theme-color;
+
+            &::after {
+                cursor: pointer;
+                color: $theme-color;
+                border: 1px solid $theme-color;
+            }
+        }
+
+        .accordion-title {
+            font-weight: 600;
+            font-size: 1em;
+            display: flex;
+            width: 90%;
+        }
+
+        .icon {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid;
+            border-radius: 22px;
+            color: $theme-color3;
+
+            &::before {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 9px;
+                left: 5px;
+                width: 10px;
+                height: 2px;
+                background: currentColor;
+            }
+
+            &::after {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 5px;
+                left: 9px;
+                width: 2px;
+                height: 10px;
+                background: currentColor;
+            }
+        }
+    }
+
+    button[aria-expanded='true'] {
+        color: $theme-color2;
+
+        .icon {
+            &::after {
+                width: 0;
+            }
+        }
+
+        +.accordion-content {
+            opacity: 1;
+            max-height: 100%;
+            transition: all 200ms linear;
+            will-change: opacity, max-height;
+
+            @media (max-width: 991px) {
+                overflow-y: scroll;
+            }
+        }
+    }
+
+    .accordion-content {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 200ms linear, max-height 200ms linear;
+        will-change: opacity, max-height;
+
+        p,
+        li {
+            font-size: .9rem;
+            font-weight: 300;
+            margin: 2em 0;
+
+            a {
+                &:hover {
+                    color: $theme-color;
+                    padding-left: 5px;
+                }
+            }
+        }
+
+        @media (max-width:991px) {
+            p {
+                font-weight: 600;
+                color: $theme-color3;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}

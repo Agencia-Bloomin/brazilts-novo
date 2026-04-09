@@ -1,0 +1,22 @@
+@mixin swiper-button-style($top: 55%, $size: 50px, $bg-color: #fff, $color: #000018) {
+    position: absolute;
+    top: $top;
+    height: $size;
+    width: $size;
+    cursor: pointer;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: $size;
+    background: $bg-color;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .23);
+    transform: translateY(-50%);
+    transition: transform .1s linear;
+    z-index: 3;
+
+    &::after {
+        font-size: 20px;
+        color: $color;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,22 @@
+//------------------------------------------------------responsivo--------------------------------------
+$xxl: '(min-width:1400px)';
+$xl: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg :'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xs:'(max-width: 575px)';
+$xxs:'(max-width: 320px)';
+
+//-----------------------------------------------------color---------------------------------------------
+
+$theme-color: #44A5FF;
+$theme-color2: #1070C9;
+$theme-color3: #032F9F;
+$theme-color4: #001D68;
+
+$text-color: #f8f8f8;
+$text-color2: #1a1a1a;
+
+//-----------------------------------------------------font-family-----------------------------------------
+$font_1 :'Montserrat', sans-serif;
+$font_2 :'Montserrat', sans-serif;

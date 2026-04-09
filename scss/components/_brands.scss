@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.brands-area {
+    background: $theme-color3;
+    padding: 20px 0;
+
+    img {
+        filter: brightness(0) invert(1);
+        height: 61px !important;
+        object-fit: contain !important;
+    }
+
+}

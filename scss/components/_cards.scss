@@ -1,0 +1,68 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.card-product {
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    margin: 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    h2,
+    h3 {
+        background-color: $theme-color3;
+        border-radius: 15px 15px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5em;
+        padding: 6px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px 0 10px;
+    }
+
+    p {
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        padding: 0 15px;
+
+        span {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $theme-color2;
+            border: 1px solid $theme-color2;
+            padding: 8px;
+            border-radius: 8px;
+            width: 80%;
+            display: inline-block;
+            transition: .4s ease;
+            margin-bottom: 20px;
+        }
+    }
+
+    img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+        border-bottom: 3px solid $theme-color2;
+        // background-image: url(../img/about/bg.jpg);
+        // background-size: cover;
+    }
+
+    &:hover {
+        p {
+            span {
+                color: #fff;
+                border: 1px solid $theme-color2;
+                background-color: $theme-color2;
+                box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+            }
+        }
+    }
+}
