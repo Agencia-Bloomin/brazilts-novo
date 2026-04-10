@@ -135,6 +135,12 @@ if (!isset($title)) {
             $description = 'Política de Privacidade e Segurança de Dados da Brazil Translations: tratamento de informações pessoais, alterações, armazenamento, prazos, terceiros, direitos do usuário e comunicações.';
             break;
 
+        case 'termos-de-uso':
+            $title = 'Termos de Uso - Brazil Translations | Tradução e Interpretação de Qualidade';
+            $h1 = 'Termos de Uso';
+            $description = 'Termos de Uso do site Brazil Translations: condições de acesso, responsabilidades, propriedade intelectual, dados pessoais, cookies e legislação aplicável.';
+            break;
+
         case 'mapa-do-site':
             $title = 'Mapa do Site';
             $h1 = 'Mapa do Site';

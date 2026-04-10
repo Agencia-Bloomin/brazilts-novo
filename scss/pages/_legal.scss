@@ -1,0 +1,208 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+/**
+ * Política de Privacidade e Termos de Uso — mesmo padrão visual das páginas BrazilTS (kit Elementor 7):
+ * hero claro + faixa em --e-global-color-text + texto/links em --e-global-color-primary.
+ */
+
+ .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+        flex-direction: column-reverse;
+    }
+    gap: 20px;
+    background-color: #1F4A99 !important;
+    color: #fff !important;
+
+    .brazilts-legal__hero-inner{
+        
+        width: 400%;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 2.4em;
+            font-weight: 700;
+            font-family: $font_2;
+            color: #fff !important;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #fff !important;
+        }
+
+
+    }
+}
+.termos-de-uso {
+
+    .cta_politica {
+       display: flex;
+    }
+}
+.brazilts-legal-page {
+  .brazilts-legal {
+
+    img {
+        width: auto;
+        height: 424px;
+        object-fit: contain;
+        object-position: center;
+        margin-left: 20px;
+        border-radius: 12px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+            border-radius: 0;
+        }
+    }
+    &__hero {
+      background: #1f4a99;
+      padding: 2.5rem 1rem 2rem;
+
+      @media (min-width: 768px) {
+        padding: 3.5rem 1.5rem 2.5rem;
+      }
+    }
+
+    &__hero-inner {
+      max-width: 600px;
+    }
+
+    &__title {
+      margin: 0 0 0.75rem;
+    }
+
+    &__lead {
+      margin: 0;
+      max-width: 52rem;
+      font-family: var(--e-global-typography-text-font-family, "Montserrat", sans-serif);
+      font-weight: var(--e-global-typography-text-font-weight, 400);
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #1a1a1a;
+    }
+
+    &__body {
+      background-color: var(--e-global-color-text, #f3ffff);
+      padding: 2.5rem 1rem 4rem;
+
+      @media (min-width: 768px) {
+        padding: 3.75rem 1.5rem 5rem;
+      }
+
+      @media (max-width: 767px) {
+        padding-top: 1.75rem;
+        padding-bottom: 3rem;
+      }
+    }
+
+    &__inner {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__prose {
+      font-family: var(--e-global-typography-text-font-family, "Montserrat", sans-serif);
+      font-weight: var(--e-global-typography-text-font-weight, 400);
+      font-size: 1rem;
+      line-height: 1.65;
+      color: var(--e-global-color-primary, #1f4a99);
+
+      h2 {
+        font-family: var(--e-global-typography-primary-font-family, "Sora", sans-serif);
+        font-weight: var(--e-global-typography-primary-font-weight, 600);
+        font-size: 1.35rem;
+        text-transform: none;
+        margin: 1.5em 0 0.65em;
+        color: var(--e-global-color-primary, #1f4a99);
+
+        &:first-child {
+          margin-top: 0;
+        }
+
+        @media (min-width: 768px) {
+          font-size: 1.45rem;
+        }
+      }
+
+      p {
+        margin: 0 0 1em;
+      }
+
+      a {
+        color: var(--e-global-color-primary, #1f4a99);
+        text-decoration: underline;
+
+        &:hover {
+          opacity: 0.88;
+        }
+      }
+
+      ul {
+        padding-left: 1.25em;
+        margin: 0.5em 0 1em;
+      }
+
+      li {
+        margin-bottom: 0.35em;
+      }
+
+      blockquote {
+        margin: 1em 0;
+        padding: 1em 1.25em;
+        border-left: 4px solid var(--e-global-color-primary, #1f4a99);
+        font-style: italic;
+        opacity: 0.95;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 0.9375rem;
+
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &__cta {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(31, 74, 153, 0.15);
+
+      @media (max-width: 767px) {
+        justify-content: center;
+      }
+    }
+
+    &__cta-btn {
+      background-color: var(--e-global-color-primary, #1f4a99) !important;
+      border-radius: 10px;
+      padding: 10px 19px !important;
+      color: var(--e-global-color-text, #f3ffff) !important;
+      fill: var(--e-global-color-text, #f3ffff) !important;
+
+      .elementor-button-text {
+        font-family: var(--e-global-typography-accent-font-family, "Montserrat", sans-serif);
+        font-size: 14px;
+        font-weight: var(--e-global-typography-accent-font-weight, 500);
+      }
+    }
+  }
+}
