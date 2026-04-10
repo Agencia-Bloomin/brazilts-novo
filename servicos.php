@@ -29,7 +29,7 @@ include 'inc/inc.seo.php';
                             <p class="brazilts-title elementor-heading-title elementor-size-default">A Brazil Translations oferece uma ampla gama de serviços linguísticos, adaptados às necessidades específicas de cada cliente.​</p>                </div>
                     </div>
                     <div class="brazilts-blk elementor-element elementor-element-0dbec1a e-con-full e-flex e-con e-child" data-id="0dbec1a" data-element_type="container" data-e-type="container">
-                        <a class="brazilts-blk elementor-element elementor-element-f133e9f e-con-full e-flex e-con e-child" data-id="f133e9f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="traducao-juramentada/index.htm">
+                        <a class="brazilts-blk elementor-element elementor-element-f133e9f e-con-full e-flex e-con e-child" data-id="f133e9f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="servicos/traducao-juramentada">
                         <div class="brazilts-blk elementor-element elementor-element-ac303ea brazilts-wdg elementor-widget elementor-widget-image" data-id="ac303ea" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
                             <div class="brazilts-wdg__inner elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="640" height="193" src="img/traducao-juramentada.webp" class="attachment-large size-large brazilts-media" alt="">                                                            </div>
@@ -45,7 +45,7 @@ include 'inc/inc.seo.php';
                             </div>
                         </div>
                         </a>
-                        <a class="brazilts-blk elementor-element elementor-element-9d57871 e-con-full e-flex e-con e-child" data-id="9d57871" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="traducao-cientifica/index.htm">
+                        <a class="brazilts-blk elementor-element elementor-element-9d57871 e-con-full e-flex e-con e-child" data-id="9d57871" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="servicos/traducao-cientifica">
                         <div class="brazilts-blk elementor-element elementor-element-1a491d5 brazilts-wdg elementor-widget elementor-widget-image" data-id="1a491d5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
                             <div class="brazilts-wdg__inner elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="640" height="193" src="img/traducao-cientifica-img.webp" class="attachment-large size-large brazilts-media" alt="">                                                            </div>
@@ -63,7 +63,7 @@ include 'inc/inc.seo.php';
                         </a>
                     </div>
                     <div class="brazilts-blk elementor-element elementor-element-28e6cc4 e-con-full e-flex e-con e-child" data-id="28e6cc4" data-element_type="container" data-e-type="container">
-                        <a class="brazilts-blk elementor-element elementor-element-21fe236 e-con-full e-flex e-con e-child" data-id="21fe236" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="traducao-em-libras/index.htm">
+                        <a class="brazilts-blk elementor-element elementor-element-21fe236 e-con-full e-flex e-con e-child" data-id="21fe236" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="servicos/traducao-em-libras/">
                         <div class="brazilts-blk elementor-element elementor-element-6de8db3 brazilts-wdg elementor-widget elementor-widget-image" data-id="6de8db3" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
                             <div class="brazilts-wdg__inner elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="640" height="193" src="img/traducao-em-libras.webp" class="attachment-large size-large brazilts-media" alt="">                                                            </div>
