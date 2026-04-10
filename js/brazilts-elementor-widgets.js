@@ -149,6 +149,10 @@
     const popup = modal?.querySelector('[data-elementor-type="popup"][data-elementor-id="1648"]');
     if (!modal || !popup) return;
 
+    /** Mesmo ritmo do popup no Elementor (post-1648: entrance 0,5s, fadeInLeft). */
+    const POPUP_ANIM_MS = 500;
+    let closeTimer = null;
+
     const nav = popup.querySelector('nav.elementor-nav-menu--dropdown.elementor-nav-menu__container');
     const closeBtn = modal.querySelector('.dialog-close-button');
     const triggers = () => document.querySelectorAll('.brazilts-open-menu-1648');
@@ -157,21 +161,39 @@
       triggers().forEach((t) => t.setAttribute('aria-expanded', open ? 'true' : 'false'));
     };
 
-    const isOpen = () => modal.classList.contains('brazilts-popup--open');
-
-    const closePopup = () => {
-      modal.classList.remove('brazilts-popup--open');
-      modal.style.display = 'none';
+    const finishClose = () => {
+      modal.classList.remove('brazilts-popup--closing');
+      modal.removeAttribute('style');
       modal.setAttribute('aria-hidden', 'true');
       document.body.classList.remove('brazilts-popup-active');
       document.body.style.overflow = '';
       if (nav) nav.setAttribute('aria-hidden', 'true');
       setTriggersExpanded(false);
       popup.querySelectorAll('.brazilts-submenu-open').forEach((li) => li.classList.remove('brazilts-submenu-open'));
+      closeTimer = null;
+    };
+
+    const closePopup = () => {
+      if (modal.classList.contains('brazilts-popup--closing')) return;
+      if (!modal.classList.contains('brazilts-popup--open')) return;
+      if (closeTimer) {
+        window.clearTimeout(closeTimer);
+        closeTimer = null;
+      }
+      modal.classList.remove('brazilts-popup--open');
+      modal.classList.add('brazilts-popup--closing');
+      void modal.offsetWidth;
+      closeTimer = window.setTimeout(finishClose, POPUP_ANIM_MS);
     };
 
     const openPopup = () => {
-      modal.style.display = 'flex';
+      if (closeTimer) {
+        window.clearTimeout(closeTimer);
+        closeTimer = null;
+      }
+      modal.classList.remove('brazilts-popup--closing');
+      modal.classList.remove('brazilts-popup--open');
+      void modal.offsetWidth;
       modal.classList.add('brazilts-popup--open');
       modal.setAttribute('aria-hidden', 'false');
       document.body.classList.add('brazilts-popup-active');
@@ -204,7 +226,7 @@
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && isOpen()) closePopup();
+      if (e.key === 'Escape' && modal.classList.contains('brazilts-popup--open')) closePopup();
     });
 
     if (nav) {
@@ -385,18 +407,85 @@
     style.id = 'brazilts-elementor-fallback-css';
     style.textContent = `
 /* Modal 1648: mesma árvore que o Elementor Pro (#elementor-popup-modal-1648 + post-1648.css). */
+@keyframes brazilts-popup-fade-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes brazilts-popup-fade-out-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
 #elementor-popup-modal-1648 {
   position: fixed !important;
   inset: 0 !important;
   z-index: 100000 !important;
 }
-#elementor-popup-modal-1648:not(.brazilts-popup--open) {
+#elementor-popup-modal-1648 .dialog-widget-content {
+  position: relative !important;
+}
+#elementor-popup-modal-1648 .dialog-close-button {
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  z-index: 100 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+  -webkit-tap-highlight-color: transparent;
+}
+#elementor-popup-modal-1648 .dialog-close-button:focus-visible {
+  outline: 2px solid var(--e-global-color-primary, #1f4a99);
+  outline-offset: 2px;
+}
+#elementor-popup-modal-1648 .dialog-close-button svg {
+  width: 22px !important;
+  height: 22px !important;
+  display: block !important;
+}
+#elementor-popup-modal-1648:not(.brazilts-popup--open):not(.brazilts-popup--closing) {
   display: none !important;
   pointer-events: none !important;
 }
-#elementor-popup-modal-1648.brazilts-popup--open {
+#elementor-popup-modal-1648.brazilts-popup--open,
+#elementor-popup-modal-1648.brazilts-popup--closing {
   display: flex !important;
   pointer-events: auto !important;
+}
+#elementor-popup-modal-1648.brazilts-popup--open .dialog-widget-content {
+  animation: brazilts-popup-fade-in-left 0.5s ease both;
+}
+#elementor-popup-modal-1648.brazilts-popup--closing .dialog-widget-content {
+  animation: brazilts-popup-fade-out-left 0.5s ease both;
+}
+#elementor-popup-modal-1648 .dialog-close-button,
+#elementor-popup-modal-1648 .dialog-lightbox-close-button {
+  color: var(--e-global-color-primary, #1f4a99) !important;
+}
+#elementor-popup-modal-1648 .dialog-close-button svg,
+#elementor-popup-modal-1648 .dialog-close-button path,
+#elementor-popup-modal-1648 .dialog-lightbox-close-button svg,
+#elementor-popup-modal-1648 .dialog-lightbox-close-button path {
+  fill: currentColor !important;
 }
 #elementor-popup-modal-1648.brazilts-popup--open [data-elementor-type="popup"].elementor-1648 {
   display: block !important;
