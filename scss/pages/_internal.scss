@@ -118,7 +118,7 @@
     .img-text {
         position: relative;
         background-image: url(../img/gallery/about.jpg);
-    
+
         &::before {
             content: '';
             width: 100%;
@@ -129,11 +129,11 @@
             background-image: linear-gradient(to right, #454545, #FFFFFF00);
             z-index: 0;
         }
-    
+
         .content-padding {
             padding: 32px;
             z-index: 1;
-    
+
             h2,
             p {
                 color: #FFF;
@@ -460,13 +460,13 @@
         justify-items: center;
         align-items: center;
         z-index: 1;
-    
+
         .icon {
             width: 120px;
             opacity: 1;
             z-index: -1;
         }
-    
+
         .subtitle {
             font-size: 24px;
             font-weight: 700;
@@ -476,34 +476,34 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 0;
-    
+
             @media #{$xs} {
                 font-size: 18px;
             }
-    
+
             @media #{$xxs} {
                 font-size: 16px;
             }
         }
-    
+
         .title {
             font-size: 45px;
             font-weight: 800;
             color: #2c2b2b;
             text-align: center;
-    
+
             @media #{$sm} {
                 font-size: 32px;
             }
-    
+
             @media #{$xs} {
                 font-size: 30px;
             }
-    
+
             @media #{$xxs} {
                 font-size: 22px;
             }
-    
+
             &.color-gradint {
                 background: linear-gradient(90deg, $theme-color 45%, $theme-color2 100%);
                 background-clip: text;
@@ -511,17 +511,17 @@
                 -webkit-text-fill-color: transparent;
             }
         }
-    
+
         .desc {
             margin: 5px 0;
-    
+
             p {
                 text-align: center;
                 font-size: 16px;
                 color: $text-color2;
                 margin: 0;
             }
-    
+
         }
     }
 
@@ -535,7 +535,7 @@
         border-radius: 10px;
         height: 415px;
         width: 90%;
-    
+
         &::before {
             content: '';
             position: absolute;
@@ -547,7 +547,7 @@
             background: linear-gradient(180deg, $theme-color 40%, rgba(255, 255, 255, 0) 100%);
             z-index: 2;
         }
-    
+
         &::after {
             content: '';
             position: absolute;
@@ -567,8 +567,8 @@
             opacity: 0.5;
             z-index: -1;
         }
-    
-    
+
+
         img {
             position: absolute;
             top: 50%;

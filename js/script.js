@@ -160,7 +160,7 @@ async function runParallax() {
     var rellaxLoaded = await domContentLoaded.getPromise();
 
     if (rellaxLoaded) {
-        
+
         var rellax = new Rellax('.parallax', {
             speed: 1.5,
             center: true,

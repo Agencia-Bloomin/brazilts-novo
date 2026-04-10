@@ -10,6 +10,18 @@
 // brazilts-rotating-headline — headline animado
 // brazilts-elem-layout — classe no <body> das páginas com layout Elementor
 
+// Igual ao hero do site (Elementor): linha 1 "Sua mensagem em", linha 2 = idioma animado + sufixo fixo na mesma linha
+// Ref.: https://www.brazilts.com.br/
+.brazilts-hero-headline-suffix {
+    display: inline;
+    vertical-align: bottom;
+    color: var(--dynamic-text-color, #aebcb9);
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    white-space: normal;
+}
+
 .brazilts-main {
   width: 100%;
   overflow-x: clip;

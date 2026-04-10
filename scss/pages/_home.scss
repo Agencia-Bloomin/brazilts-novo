@@ -1,6 +1,28 @@
 @use "../abstracts/variables"as *;
 @use "../abstracts/mixins"as *;
 
+.certificados_home {
+    display: flex;
+    align-items: center;
+
+    .elementor-widget-container {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
+
 .banner-area {
     position: relative;
 

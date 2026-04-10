@@ -3,18 +3,18 @@
 ############################-->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
   "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
+    "@type": "ListItem",
+    "position": 1,
     "name": "Home",
-    "item": "<?=CONF_TAG_BASE;?>"  
+    "item": "<?=CONF_TAG_BASE;?>"
   },{
-    "@type": "ListItem", 
-    "position": 2, 
+    "@type": "ListItem",
+    "position": 2,
     "name": "<?=$title?>",
-    "item": "<?=CONF_TAG_BASE;?><?=$activePage?>"  
+    "item": "<?=CONF_TAG_BASE;?><?=$activePage?>"
   }]
 }
 </script>
@@ -26,26 +26,26 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
   "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
+    "@type": "ListItem",
+    "position": 1,
     "name": "Home",
-    "item": "<?=CONF_TAG_BASE;?>"  
+    "item": "<?=CONF_TAG_BASE;?>"
   },{
-    "@type": "ListItem", 
-    "position": 2, 
+    "@type": "ListItem",
+    "position": 2,
     "name": "<?=$title;?>",
-    "item": "<?=CONF_TAG_BASE;?><?=$activePage?>"  
+    "item": "<?=CONF_TAG_BASE;?><?=$activePage?>"
   }]
 }
 </script>
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "Product", 
+  "@context": "https://schema.org/",
+  "@type": "Product",
   "name": "<?=$title?>",
   "image": "",
   "description": "<?=$description?>",

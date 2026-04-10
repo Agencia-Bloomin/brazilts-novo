@@ -1,7 +1,8 @@
 <?php
 /**
  * Importa o bloco Elementor principal de páginas de serviço do site BrazilTS
- * e gera partial + descarrega post-{id}.css.
+ * e grava o HTML principal em inc/ + descarrega post-{id}.css.
+ * Depois copie o conteúdo gerado para dentro de <main> em servicos-{file}.php.
  */
 $root = dirname(__DIR__);
 $bu = 'https://www.brazilts.com.br';
@@ -72,9 +73,9 @@ foreach ($pages as $p) {
     $chunk = substr($html, $start, $footerPos - $start);
     $chunk = applyBraziltsClasses($chunk, $id);
 
-    $partialPath = $root . '/inc/brazilts/partials/partial-' . $file . '.php';
-    file_put_contents($partialPath, $chunk);
-    echo "  -> $partialPath\n";
+    $chunkPath = $root . '/inc/inc.brazilts-servico-' . $file . '.php';
+    file_put_contents($chunkPath, $chunk);
+    echo "  -> $chunkPath\n";
 
     $css = fetchUrl($cssUrl);
     if (!is_dir($assetsCss)) {

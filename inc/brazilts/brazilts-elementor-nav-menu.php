@@ -67,7 +67,7 @@ function brazilts_elementor_nav_menu_ul(string $ulId, bool $drawer): void
     $parentA = 'elementor-item' . ($onServicosIndex ? ' elementor-item-active' : '');
     $parentAria = $onServicosIndex ? ' aria-current="page"' : '';
 
-    echo '<li class="' . $parentLi . '"><a href="servicos/" class="' . $parentA . '"' . $parentAria . $tab . '>Serviços</a>';
+    echo '<li class="' . $parentLi . '"><a href="servicos/" class="d-flex align-items-center gap-2 ' . $parentA . '"' . $parentAria . $tab . '>Serviços <i class="fa-solid fa-caret-down"></i></a>';
     echo '<ul class="sub-menu elementor-nav-menu--dropdown">';
     foreach ($servicosFilhos as [$slug, $href, $label, $wpId]) {
         $subOn = ($np === $slug);
@@ -81,9 +81,10 @@ function brazilts_elementor_nav_menu_ul(string $ulId, bool $drawer): void
     // Blog (externo — sem estado atual)
     echo '<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1500"><a href="https://www.brazilts.com.br/blog/" class="elementor-item"' . $tab . '>Blog</a></li>';
 
-    // Orçamento
+    // Orçamento (URL oficial — ver CONF_SITE_ORCAMENTO_URL)
     $orc = ($np === 'orcamento');
-    echo '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2495' . ($orc ? ' current-menu-item' : '') . '"><a href="orcamento/" class="elementor-item' . ($orc ? ' elementor-item-active' : '') . '"' . ($orc ? ' aria-current="page"' : '') . $tab . '>Orçamento Rápido</a></li>';
+    $orcHref = htmlspecialchars(CONF_SITE_ORCAMENTO_URL, ENT_QUOTES, 'UTF-8');
+    echo '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2495' . ($orc ? ' current-menu-item' : '') . '"><a href="' . $orcHref . '" class="elementor-item' . ($orc ? ' elementor-item-active' : '') . '"' . ($orc ? ' aria-current="page"' : '') . ' target="_blank" rel="noopener noreferrer"' . $tab . '>Orçamento Rápido</a></li>';
 
     // Contato
     $fc = ($np === 'fale-conosco');

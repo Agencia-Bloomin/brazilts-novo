@@ -168,7 +168,7 @@ $descriptionHome = !empty($loadBraziltsElementor) ? $braziltsDescriptionDefault 
 
 $seoSiteName = !empty($loadBraziltsElementor) ? $braziltsSiteTitle : (defined('CONF_SITE_NAME') ? CONF_SITE_NAME : '');
 $seoAuthor = !empty($loadBraziltsElementor) ? 'Brazil Translations' : 'Ubika Brasil';
-$seoAuthorMeta = !empty($loadBraziltsElementor) ? '+55 (11) 3295-2888 | sales@brazilts.com.br' : '11 3673-7056 | 11 3864-6282';
+$seoAuthorMeta = !empty($loadBraziltsElementor) ? '+55 (11) 3295-2888 | <?= CONF_SITE_EMAIL ?>' : '11 3673-7056 | 11 3864-6282';
 $htmlLang = !empty($loadBraziltsElementor) ? 'pt-BR' : 'pt-br';
 
 $seoTitleSuffix = '';

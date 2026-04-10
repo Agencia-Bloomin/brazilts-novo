@@ -2,23 +2,23 @@
 @use "../abstracts/mixins" as *;
 
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	font-family: $font_1;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: $font_1;
 }
 
 img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 section {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .section-padding{
-	padding: 65px 0;
+  padding: 65px 0;
 }
 
 .sticky-div {
@@ -28,7 +28,7 @@ section {
 }
 
 .overflow-unset{
-	overflow: unset !important;
+  overflow: unset !important;
 }
 
 .moreText {
@@ -36,29 +36,29 @@ section {
 }
 
 .go-top-btn {
-	background: $theme-color3;
-	height: 55px;
-	width: 55px;
-	right: 15px;
-	bottom: 10px;
-	position: fixed;
-	z-index: 10;
-	font-size: 20px;
-	text-align: center;
-	border-radius: 50%;
-	border: 2px solid transparent;
-	box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
-	color: #1f1f1f;
-	text-decoration: none;
-	transition: all 0.4s;
-	display: none;
-	cursor: pointer;
+  background: $theme-color3;
+  height: 55px;
+  width: 55px;
+  right: 15px;
+  bottom: 10px;
+  position: fixed;
+  z-index: 10;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+  color: #1f1f1f;
+  text-decoration: none;
+  transition: all 0.4s;
+  display: none;
+  cursor: pointer;
 
-	i {
-		display: block;
-		line-height: 52px;
-		color: #fff;
-	}
+  i {
+    display: block;
+    line-height: 52px;
+    color: #fff;
+  }
 }
 
 .sticky-div {
@@ -70,26 +70,26 @@ section {
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-	scrollbar-width: auto;
-	scrollbar-color: $theme-color #ffffff;
+  scrollbar-width: auto;
+  scrollbar-color: $theme-color #ffffff;
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-	width: 11px;
+  width: 11px;
 }
 
 *::-webkit-scrollbar-track {
-	background: #f5f5f5;
-	border-radius: 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: $theme-color;
-	border-radius: 10px;
-	border: 3px solid #ffffff;
+  background-color: $theme-color;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
 
-	&:hover {
-		background-color: $theme-color2;
-	}
+  &:hover {
+    background-color: $theme-color2;
+  }
 }

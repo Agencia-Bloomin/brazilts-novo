@@ -2,148 +2,148 @@
 @use "../abstracts/mixins" as *;
 
 .btn-display {
-	.btn-main {
-		min-width: 200px;
-		width: fit-content;
+  .btn-main {
+    min-width: 200px;
+    width: fit-content;
 
-		@media #{$md, $sm, $xs} {
-			width: 100%;
-			
-			&.whats-form {
-				margin-top: 10px;
-				margin-left: 0;
-			}
-		}
-	}	
+    @media #{$md, $sm, $xs} {
+      width: 100%;
 
-	@media #{$md, $sm, $xs} {
-		flex-direction: column;
-	}
+      &.whats-form {
+        margin-top: 10px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  @media #{$md, $sm, $xs} {
+    flex-direction: column;
+  }
 }
 
 .home-form {
-	border-top: 3px solid color-mix(in srgb, $theme-color2, #fff 65%);
-	padding: 65px 0;
+  border-top: 3px solid color-mix(in srgb, $theme-color2, #fff 65%);
+  padding: 65px 0;
 
-	form,
-	input,
-	label,
-	p,
-	textarea {
-		color: #000 !important;
-	}
+  form,
+  input,
+  label,
+  p,
+  textarea {
+    color: #000 !important;
+  }
 
-	.contact-card {
-		.fa-contact {
-			background: color-mix(in srgb, $theme-color2, #fff 80%);
-			padding: 10px;
-			width: 50px;
-			height: 45px;
-			text-align: center;
-			float: left;
-			margin-right: 20px;
-			border-radius: 50%;
+  .contact-card {
+    .fa-contact {
+      background: color-mix(in srgb, $theme-color2, #fff 80%);
+      padding: 10px;
+      width: 50px;
+      height: 45px;
+      text-align: center;
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
 
-			i {
-				font-size: 25px;
-				color: $theme-color2;
-			}
-		}
+      i {
+        font-size: 25px;
+        color: $theme-color2;
+      }
+    }
 
-		.content {
-			p {
-				font-size: 16px;
-				font-weight: 600;
-				height: 45px;
-				display: flex;
-				align-items: center;
+    .content {
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        height: 45px;
+        display: flex;
+        align-items: center;
 
-				a {
-					color: #000;
+        a {
+          color: #000;
 
-					&:hover {
-						color: $theme-color;
-					}
-				}
-			}
-		}
-	}
+          &:hover {
+            color: $theme-color;
+          }
+        }
+      }
+    }
+  }
 }
 
 .form-contact {
 
-	label {
-		font-size: 14px;
-	}
+  label {
+    font-size: 14px;
+  }
 
-	.form-group {
-		margin-bottom: 30px;
+  .form-group {
+    margin-bottom: 30px;
 
-		.btn-prod {
+    .btn-prod {
 
-			button,
-			a {
-				width: 80%;
-				margin-left: 0;
-			}
-		}
-	}
+      button,
+      a {
+        width: 80%;
+        margin-left: 0;
+      }
+    }
+  }
 
-	.form-control {
-		border: 1px solid #e5e6e9;
-		border-radius: 0px;
-		height: 48px;
-		padding-left: 18px;
-		font-size: 13px;
-		background: transparent;
-		width: 100%;
+  .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    width: 100%;
 
-		&:focus {
-			outline: 0;
-			box-shadow: none;
-		}
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
 
-		&::placeholder {
-			font-weight: 300;
-			color: #999999;
-		}
-	}
+    &::placeholder {
+      font-weight: 300;
+      color: #999999;
+    }
+  }
 
-	textarea {
-		border-radius: 0px;
-		height: 100% !important;
-		padding-top: 20px;
-	}
+  textarea {
+    border-radius: 0px;
+    height: 100% !important;
+    padding-top: 20px;
+  }
 
-	button {
-		border: none;
-	}
+  button {
+    border: none;
+  }
 
 }
 
 #form-prod-int{
-	padding: 20px;
+  padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 8px;
 }
 
 .h3-form{
-	font-size: 20px;
-	color: $theme-color3;
+  font-size: 20px;
+  color: $theme-color3;
 
-	i{
-		color: $theme-color;
-		font-size: 18px;
-		position: relative;
-		top: 5px;
-	}
+  i{
+    color: $theme-color;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+  }
 }
 
 .whats-form {
-	background: #22ba59;
-	margin-left: 20px;
+  background: #22ba59;
+  margin-left: 20px;
 
-	&::after {
-		background-color: #01a43d;
-	}
+  &::after {
+    background-color: #01a43d;
+  }
 }

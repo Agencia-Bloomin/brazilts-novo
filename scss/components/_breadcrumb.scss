@@ -21,11 +21,11 @@
                 font-size: 45px;
                 font-weight: 700;
                 line-height: 1;
-    
+
                 @media #{$sm} {
                     font-size: 40px;
                 }
-    
+
                 @media #{$xs} {
                     font-size: 35px;
                 }
@@ -34,12 +34,12 @@
             .ajust-link {
                 color: $theme-color3;
                 font-weight: 500;
-            
+
                 &:hover {
                     color: $theme-color;
                 }
             }
-            
+
             .color-w {
                 color: $theme-color;
                 margin: 0;
@@ -50,7 +50,7 @@
     .hero-overly {
         position: relative;
         z-index: 1;
-    
+
         &::before {
             position: absolute;
             content: "";
