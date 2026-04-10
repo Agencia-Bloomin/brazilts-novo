@@ -10,7 +10,7 @@
 if (in_array($_SERVER['HTTP_HOST'], ['localhost', '127.0.0.1'])) {
     define("CONF_TAG_BASE", "http://localhost/david/brazilts-novo/");
 } else {
-    define("CONF_TAG_BASE", "https://bloominprojetos.com.br/projetos/template-vanilla/");
+    define("CONF_TAG_BASE", "https://bloominprojetos.com.br/projetos/brazilts-novo/");
 }
 
 
