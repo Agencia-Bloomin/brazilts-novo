@@ -74,10 +74,16 @@
   }
 
   function initAnimatedHeadlines() {
+    /** Mesmo ritmo do Elementor Pro: flip 1.2s (widget-animated-headline.min.css) + rotate_iteration_delay 1300ms. */
+    const FLIP_MS = 1200;
+
     document.querySelectorAll('.brazilts-rotating-headline.elementor-widget-animated-headline').forEach((widget) => {
       if (widget.dataset.braziltsHeadlineInit) return;
       const settings = parseDataSettings(widget);
-      const delay = settings.rotate_iteration_delay || 1300;
+      const delay = Math.max(
+        FLIP_MS + 50,
+        parseInt(String(settings.rotate_iteration_delay ?? 1300), 10) || 1300
+      );
       const wrapper = widget.querySelector('.elementor-headline-dynamic-wrapper');
       if (!wrapper) return;
       const items = wrapper.querySelectorAll('.elementor-headline-dynamic-text');
@@ -89,11 +95,52 @@
         if (node.classList.contains('elementor-headline-text-active')) index = i;
       });
 
-      setInterval(() => {
-        items[index].classList.remove('elementor-headline-text-active');
-        index = (index + 1) % items.length;
-        items[index].classList.add('elementor-headline-text-active');
-      }, delay);
+      items.forEach((node, i) => {
+        if (i !== index) {
+          node.classList.remove('elementor-headline-text-active');
+          node.classList.remove('elementor-headline-text-inactive');
+        }
+      });
+
+      const stopAfterLast = widget.getAttribute('data-brazilts-headline-stop-after-last') === '1';
+
+      const step = () => {
+        if (widget.dataset.braziltsHeadlineStopped === '1') {
+          return;
+        }
+
+        const current = items[index];
+
+        let nextIndex;
+        if (stopAfterLast) {
+          if (index >= items.length - 1) {
+            return;
+          }
+          nextIndex = index + 1;
+        } else {
+          nextIndex = (index + 1) % items.length;
+        }
+
+        const next = items[nextIndex];
+
+        current.classList.remove('elementor-headline-text-active');
+        current.classList.add('elementor-headline-text-inactive');
+        next.classList.remove('elementor-headline-text-inactive');
+        next.classList.add('elementor-headline-text-active');
+
+        index = nextIndex;
+
+        window.setTimeout(() => {
+          current.classList.remove('elementor-headline-text-inactive');
+        }, FLIP_MS);
+
+        if (stopAfterLast && index === items.length - 1) {
+          widget.dataset.braziltsHeadlineStopped = '1';
+          window.clearInterval(intervalId);
+        }
+      };
+
+      const intervalId = window.setInterval(step, delay);
     });
   }
 
@@ -378,10 +425,10 @@ nav.elementor-nav-menu--dropdown .elementor-sub-item.elementor-item-active {
     position: absolute;
     left: 0;
     top: 100%;
-    min-width: 280px;
+    width: 100%;
+    min-width: 370px;
     z-index: 100000;
     margin: 0;
-    padding: 0.35em 0;
     list-style: none;
     background: #fff;
     box-shadow: 0 8px 24px rgba(0,0,0,.12);

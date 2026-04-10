@@ -62,7 +62,7 @@ $pages = makeRequest($url, $verdil);
                             ['.php', '-', 'politica'],
                             ['', ' ', 'política'],
                             $v
-                        ); // renomeia o valor dentro da tag <a>ex:valor</a> 
+                        ); // renomeia o valor dentro da tag <a>ex:valor</a>
 
                         //remover link mapa-do-site
                         if ($v != "mapa-do-site.php" && $v != "index.php" && $v != "obrigado.php" && $v != "whats-flutuante.php" && $v != "lgpd.php" && $v != "contato_envia.php" &&  $v != "pg-seo.php"  &&  $v != "pg-seo.php" && $v != "produto-interna.php" && $v != "produto-interna2.php" && $v != "produto-interna3.php" && $v != "produto-interna4.php") {

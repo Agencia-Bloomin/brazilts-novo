@@ -6,7 +6,7 @@ async function runActivePage() {
             const activePage = window.location.pathname;
 
             navLinks.forEach(navLink => {
-                const navLinkPathname = new URL(navLink.href).pathname;                
+                const navLinkPathname = new URL(navLink.href).pathname;
 
                 if ((activePage === navLinkPathname) || (activePage === '/' && navLinkPathname === './')) {
                     navLink.classList.add('active-nav');
@@ -15,7 +15,7 @@ async function runActivePage() {
                 if(navLink.nextElementSibling && navLink.nextElementSibling.classList.contains('sub-menu')){
                     const subNavLinks = navLink.nextElementSibling.querySelectorAll('.menu-item a')
                     subNavLinks.forEach((sub) => {
-                        const subNavLinkPathname = new URL(sub.href).pathname; 
+                        const subNavLinkPathname = new URL(sub.href).pathname;
                         if(subNavLinkPathname === activePage) {
                             const subNavParent = sub.closest('.sub-menu').previousElementSibling;
                             if(subNavParent){

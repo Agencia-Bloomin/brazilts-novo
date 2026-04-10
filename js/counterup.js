@@ -44,6 +44,6 @@ async function runCounters() {
       window.addEventListener('scroll', handleScroll);
       window.addEventListener('load', handleScroll); // Para verificar a visibilidade ao carregar a página
     }
-    
+
   }
 } runCounters()

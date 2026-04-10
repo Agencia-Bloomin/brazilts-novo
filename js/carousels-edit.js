@@ -3,7 +3,7 @@
 async function runSwiperConfigs() {
   const swiperDomLoaded = await domContentLoaded.getPromise();
   if (swiperDomLoaded) {
-  
+
     //====================================== Banner Carousel ==============================================
     var swiper = new Swiper(".bannerSwiper", {
       spaceBetween: 30,

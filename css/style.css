@@ -122,12 +122,12 @@ h5 {
 ul,
 ol {
   padding: 0;
+  padding-left: 18px;
   margin: 0;
 }
 
 li {
-  list-style: none;
-  color: #171717;
+  color: #fff;
 }
 
 a {
@@ -137,10 +137,21 @@ a {
 }
 
 p {
-  color: #171717;
+  color: white;
   margin-bottom: 15px;
   font-size: 1em;
   line-height: 22px;
+}
+
+.section-white p {
+  color: #1F4A99;
+}
+.section-white ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #1F4A99;
 }
 
 .section-title h1,
@@ -1527,6 +1538,26 @@ button.btn-main {
     margin-left: 0;
     width: 80%;
   }
+}
+
+.certificados_home {
+  display: flex;
+  align-items: center;
+}
+.certificados_home .elementor-widget-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.certificados_home .elementor-widget-container img {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
 }
 
 .banner-area {
@@ -3002,12 +3033,25 @@ button.btn-main {
   outline-offset: 2px;
 }
 
+.brazilts-hero-headline-suffix {
+  display: inline;
+  vertical-align: bottom;
+  color: var(--dynamic-text-color, #aebcb9);
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  white-space: normal;
+}
+
 .brazilts-main {
   width: 100%;
   overflow-x: clip;
 }
 .brazilts-main .e-con,
 .brazilts-main .e-con-inner,
+.brazilts-main .brazilts-blk.elementor-element,
 .brazilts-main .elementor-element {
   box-sizing: border-box;
 }
+
+/*# sourceMappingURL=style.css.map */
