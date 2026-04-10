@@ -52,6 +52,10 @@ RewriteRule ^produto\/([a-z,0-9,_-]+)\/([0-9-]+)\/([,|0-9-]+)?$ prod.php?id=$2&c
 # BrazilTS: /orcamento/ no site oficial = mesma página que contato (formulário externo)
 RewriteRule ^orcamento/?$ contato.php [NC,L]
 
+# BrazilTS: páginas legais (mesmas URLs do site de referência)
+RewriteRule ^politica-de-privacidade/?$ politica-de-privacidade.php [NC,L]
+RewriteRule ^termos-de-uso/?$ termos-de-uso.php [NC,L]
+
 # BrazilTS: URLs amigáveis servicos/* → ficheiro .php na raiz (sem pastas)
 RewriteRule ^servicos/traducao-juramentada/?$ servicos-traducao-juramentada.php [NC,L]
 RewriteRule ^servicos/traducao-cientifica/?$ servicos-traducao-cientifica.php [NC,L]

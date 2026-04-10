@@ -1,12 +1,6 @@
 @use "../abstracts/variables"as *;
 @use "../abstracts/mixins"as *;
 
-.politica-de-privacidade {
-  h2 {
-    margin-top: 15px;
-  }
-}
-
 .lgpd {
   position: fixed;
   bottom: 4%;

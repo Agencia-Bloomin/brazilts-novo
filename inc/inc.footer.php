@@ -43,7 +43,7 @@
                             <li class="brazilts-nav__item menu-item"><a href="nossa-historia/" class="elementor-item">Nossa História</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="quem-somos/" class="elementor-item">Quem somos</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="politica-de-privacidade/" class="elementor-item">Política de Privacidade</a></li>
-                            <li class="brazilts-nav__item menu-item"><a href="https://www.brazilts.com.br/termos-de-uso/" class="elementor-item">Termos de Uso</a></li>
+                            <li class="brazilts-nav__item menu-item"><a href="termos-de-uso/" class="elementor-item">Termos de Uso</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="https://www.brazilts.com.br/blog/" class="elementor-item">Blog</a></li>
                             </ul>            </nav>
                             <nav class="brazilts-nav brazilts-nav__drawer elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
@@ -53,7 +53,7 @@
                             <li class="brazilts-nav__item menu-item"><a href="nossa-historia/" class="elementor-item" tabindex="-1">Nossa História</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="quem-somos/" class="elementor-item" tabindex="-1">Quem somos</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="politica-de-privacidade/" class="elementor-item" tabindex="-1">Política de Privacidade</a></li>
-                            <li class="brazilts-nav__item menu-item"><a href="https://www.brazilts.com.br/termos-de-uso/" class="elementor-item" tabindex="-1">Termos de Uso</a></li>
+                            <li class="brazilts-nav__item menu-item"><a href="termos-de-uso/" class="elementor-item" tabindex="-1">Termos de Uso</a></li>
                             <li class="brazilts-nav__item menu-item"><a href="https://www.brazilts.com.br/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
                             </ul>            </nav>
                         </div>
